@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Архив стёртых криков</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0b0b0f;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    header{
+      height:100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+        url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=1600&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero{
+      max-width:800px;
+    }
+
+    .hero h1{
+      font-size:70px;
+      margin-bottom:20px;
+      text-shadow:0 0 15px crimson;
+    }
+
+    .hero p{
+      font-size:22px;
+      color:#d4d4d4;
+      line-height:1.6;
+      margin-bottom:35px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:15px 35px;
+      background:crimson;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:20px;
+      transition:0.3s;
+      box-shadow:0 0 20px rgba(220,20,60,0.5);
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      background:#ff244f;
+    }
+
+    section{
+      padding:90px 10%;
+    }
+
+    h2{
+      font-size:42px;
+      margin-bottom:25px;
+      color:crimson;
+    }
+
+    .story{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+      gap:30px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:#14141b;
+      padding:30px;
+      border-radius:20px;
+      border:1px solid rgba(255,255,255,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      border-color:crimson;
+      box-shadow:0 0 20px rgba(220,20,60,0.2);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:white;
+      font-size:26px;
+    }
+
+    .card p{
+      color:#b8b8b8;
+      line-height:1.7;
+    }
+
+    .about{
+      line-height:1.9;
+      color:#d3d3d3;
+      font-size:18px;
+    }
+
+    .contacts{
+      background:#111118;
+      border-radius:20px;
+      padding:40px;
+      margin-top:40px;
+    }
+
+    .contacts p{
+      margin:15px 0;
+      font-size:20px;
+    }
+
+    .contacts a{
+      color:crimson;
+      text-decoration:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#777;
+      border-top:1px solid rgba(255,255,255,0.05);
+    }
+
+    .glow{
+      color:crimson;
+      text-shadow:0 0 10px crimson;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:45px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      h2{
+        font-size:32px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+    <h1>Архив стёртых криков</h1>
+
+    <p>
+      Мир, где смерть не конец.  
+      Где воспоминания исчезают.  
+      А крики тех, кто был стёрт — продолжают звучать в темноте.
+    </p>
+
+    <a class="btn" href="https://ranobelib.me/ru/manga/264005--if-i-die-again" target="_blank">
+      Читать веб-новеллу
+    </a>
+  </div>
+</header>
+
+<section>
+  <h2>О веб-новелле</h2>
+
+  <div class="about">
+    <p>
+      «Архив стёртых криков» — это тёмная веб-новелла с психологией,
+      тайнами, страданиями и борьбой за выживание.
+    </p>
+
+    <br>
+
+    <p>
+      История вдохновлена атмосферой Re:Zero,
+      но имеет собственный сюжет, мир и персонажей.
+      Это первая работа автора, которая постепенно развивается вместе с опытом и идеями.
+    </p>
+  </div>
+
+  <div class="story">
+
+    <div class="card">
+      <h3>Психология</h3>
+      <p>
+        Главный герой сталкивается со страхом,
+        отчаянием и последствиями собственных решений.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Тайны мира</h3>
+      <p>
+        Мир скрывает множество секретов,
+        а правда может оказаться страшнее самой смерти.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Эмоции</h3>
+      <p>
+        Боль, надежда, потери и желание двигаться дальше —
+        всё это часть истории.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+
+  <h2>Поддержка автора</h2>
+
+  <div class="contacts">
+
+    <p>
+      Если тебе понравилась веб-новелла —
+      поддержи автора и следи за обновлениями.
+    </p>
+
+    <br>
+
+    <p>
+      <span class="glow">Telegram:</span>
+      <a href="https://t.me/OiCvoi" target="_blank">@OiCvoi</a>
+    </p>
+
+    <p>
+      <span class="glow">Почта:</span>
+      <a href="mailto:gabihjkp@gmail.com">gabihjkp@gmail.com</a>
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Архив стёртых криков — Все права сохранены.
+</footer>
+
+</body>
+</html>
