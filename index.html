@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Архив стёртых криков</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#09090d;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* ===== HERO ===== */
+
+header{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.92)),
+    url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1600&auto=format&fit=crop');
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:78px;
+    margin-bottom:20px;
+    color:white;
+    text-shadow:0 0 25px crimson;
+}
+
+.hero p{
+    color:#d2d2d2;
+    line-height:1.8;
+    font-size:22px;
+    margin-bottom:35px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:16px 34px;
+    border-radius:14px;
+    text-decoration:none;
+    font-size:18px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+.btn-main{
+    background:crimson;
+    color:white;
+    box-shadow:0 0 20px rgba(220,20,60,0.5);
+}
+
+.btn-main:hover{
+    transform:scale(1.05);
+    background:#ff2b55;
+}
+
+.btn-second{
+    border:1px solid crimson;
+    color:white;
+}
+
+.btn-second:hover{
+    background:crimson;
+}
+
+/* ===== SECTIONS ===== */
+
+section{
+    padding:100px 10%;
+}
+
+.section-title{
+    font-size:48px;
+    margin-bottom:30px;
+    color:crimson;
+}
+
+.about{
+    font-size:19px;
+    line-height:2;
+    color:#d4d4d4;
+}
+
+/* ===== CARDS ===== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.card{
+    background:#12121a;
+    padding:35px;
+    border-radius:22px;
+    border:1px solid rgba(255,255,255,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    border-color:crimson;
+    box-shadow:0 0 25px rgba(220,20,60,0.15);
+}
+
+.card h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#bdbdbd;
+    line-height:1.8;
+}
+
+/* ===== AUTHOR ===== */
+
+.author{
+    background:#101017;
+    border-radius:25px;
+    padding:40px;
+    margin-top:40px;
+}
+
+.author p{
+    line-height:2;
+    color:#d0d0d0;
+    font-size:18px;
+}
+
+/* ===== CONTACT ===== */
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    margin-top:40px;
+    background:#111118;
+    padding:40px;
+    border-radius:25px;
+}
+
+.contact-box p{
+    margin:18px 0;
+    font-size:20px;
+}
+
+.contact-box a{
+    color:crimson;
+    text-decoration:none;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    border-top:1px solid rgba(255,255,255,0.06);
+    text-align:center;
+    padding:30px;
+    color:#767676;
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.section-title{
+    font-size:34px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Архив стёртых криков</h1>
+
+<p>
+Мир, где смерть не является концом.  
+Мир, где память исчезает, а прошлое продолжает кричать из темноты.
+</p>
+
+<div class="buttons">
+
+<a class="btn btn-main"
+href="https://ranobelib.me/ru/manga/264005--if-i-die-again"
+target="_blank">
+
+Читать веб-новеллу
+
+</a>
+
+<a class="btn btn-second"
+href="https://t.me/NovvelMy"
+target="_blank">
+
+Telegram канал
+
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">О веб-новелле</h2>
+
+<div class="about">
+
+<p>
+«Архив стёртых криков» — это мрачная веб-новелла в жанре психологического дарк-фэнтези,
+вдохновлённая атмосферой Re:Zero, но рассказывающая собственную историю
+со своим миром, тайнами и персонажами.
+</p>
+
+<br>
+
+<p>
+Главный герой — обычный человек, оказавшийся в жестоком мире,
+где любая ошибка может стоить слишком дорого.
+История сосредоточена не только на выживании,
+но и на психологическом давлении, боли, страхе и изменении личности.
+</p>
+
+<br>
+
+<p>
+Мир новеллы наполнен загадками, скрытыми силами,
+необъяснимыми событиями и существами,
+чьи мотивы невозможно понять с первого взгляда.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Психология</h3>
+
+<p>
+История показывает,
+как постоянные испытания и потери меняют человека изнутри.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Тайны мира</h3>
+
+<p>
+Мир скрывает множество секретов,
+а правда иногда страшнее самой смерти.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Эмоции</h3>
+
+<p>
+Боль, надежда, отчаяние и безумие —
+важнейшая часть истории и персонажей.
+</p>
+
+</div>
+
+</div>
+
+<div class="author">
+
+<h2 class="section-title">Авторский путь</h2>
+
+<p>
+Это моя первая веб-новелла.
+Я всё ещё учусь писать,
+развиваюсь вместе со своей историей и постепенно улучшаю качество работы.
+</p>
+
+<br>
+
+<p>
+Мои новеллы — это простые и обычные работы,
+созданные человеком,
+который только начинает свой путь в написании историй.
+Но именно через опыт, ошибки и практику я хочу создавать всё более глубокие и интересные произведения.
+</p>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2 class="section-title">Связь и новости</h2>
+
+<div class="contact-box">
+
+<p>
+Telegram:
+<a href="https://t.me/OiCvoi" target="_blank">
+@OiCvoi
+</a>
+</p>
+
+<p>
+Telegram канал:
+<a href="https://t.me/NovvelMy" target="_blank">
+@NovvelMy
+</a>
+</p>
+
+<p>
+Почта:
+<a href="mailto:gabihjkp@gmail.com">
+gabihjkp@gmail.com
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Архив стёртых криков
+</footer>
+
+</body>
+</html>
